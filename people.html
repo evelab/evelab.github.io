@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+
+    <title>EVE Lab - People</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='icon' type='image/png' href='images/fly_icon.png' />
+
+    <!-- link to website styles -->
+    <link rel='stylesheet' href='styles/styles.css' />
+    <!-- link to website scripts -->
+    <script async type='text/javascript' src='scripts/scripts.js'></script>
+    <!-- add Google font -->
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans|Montserrat&display=swap' rel='stylesheet'>
+
+  </head>
+
+  <body>
+
+    <!-- top navigation menu - mobile version -->
+    <div id='topnav-bg'>
+      <nav id='topnav'>
+        <a href='index.html'>EVE Lab</a>
+        <!-- navigation links (hidden by default) -->
+        <ul id='pages'>
+          <li><a href='research.html'>Research</a></li>
+          <li><a href='people.html'>People</a></li>
+          <li><a href='publications.html'>Publications</a></li>
+          <li><a href='news.html'>News</a></li>
+        </ul>
+        <!-- 'hamburger menu' to toggle the navigation links -->
+        <div id='menu' onclick='toggleMenu()'>
+          <div class='bar'></div>
+          <div class='bar'></div>
+          <div class='bar'></div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- top navigation menu - desktop/laptop version -->
+    <nav id='topnav2'>
+      <ul>
+        <li class='inactive'><a href='index.html'>About</a></li>
+        <li class='inactive'><a href='research.html'>Research</a></li>
+        <li class='active'><a href='people.html#'>People</a></li>
+        <li class='inactive'><a href='publications.html'>Publications</a></li>
+        <li class='inactive'><a href='news.html'>News</a></li>
+      </ul>
+    </nav>
+
+    <!-- header image -->
+    <picture>
+      <source media='(max-width: 860px)' srcset='images/headers/header_03_small.jpg'  alt='header image'>
+      <img class='header-image' src='images/headers/header_03.jpg' alt='header image'>
+      <div class='header-text'>Evolution & Vector Ecology Lab</div>
+    </picture>
+
+
+    <div id='content'>
+
+      <div id='block'>
+        <img class='image-big' src='images/people/sinead_english.jpg'>
+        <section class='text'>
+          <img class='image-small' src='images/people/sinead_english.jpg'>
+          <p class='name'>Sinead English</p>
+          <p class='title'>
+            Senior Lecturer & Royal Society Dorothy Hodgkin Fellow
+          </p>
+          <p>
+            My research investigates how variation in environmental and maternal conditions shapes offspring development, behaviour and life history. I use a variety of approaches, including mathematical models, comparative analyses and empirical tests on unusual and important model systems, including the disease-carrying tsetse fly. I have studied variation in cooperation (PhD 2010, Cambridge) and growth (Postdoc 2009-12, Cambridge) in meerkats, and developmental determinants of ageing (2012-15, Oxford). I was awarded a Royal Society Dorothy Hodgkin Fellowship in 2015, and moved to Bristol as (proleptic) Senior Lecturer in 2017.
+          </p>
+        </section>
+        <div class='logos'>
+          <a href='https://scholar.google.co.uk/citations?user=0VkApQ0AAAAJ' target='_blank'>
+            <img class='logo-small' src='images/google_scholar.png' alt='google scholar'>
+          </a>
+          <a href='https://twitter.com/englishse' target='_blank'>
+            <img class='logo-small' src='images/twitter.png' alt='twitter'>
+          </a>
+        </div>
+      </div>
+
+      <section id='current'>
+
+        <!-- <br>
+        <div class='break'> </div>
+        <p class='break-text'><a class='on' href='people.html#current'>Current</a> / <a class='off' href='people.html#collaborators'>Collaborators</a></p>
+        <div class='break'> </div>
+        <br> -->
+
+        <br>
+        <div class='break'> </div>
+        <br>
+
+        <div id='block'>
+          <img class='image-big' src='images/people/antoine_barreaux.jpg'>
+          <section class='text'>
+            <img class='image-small' src='images/people/antoine_barreaux.jpg'>
+            <p class='name'>Antoine Barreaux</p>
+            <p class='title'>
+              Postdoctoral Research Associate
+            </p>
+            <p>
+              I am an evolutionary ecologist interested in carry over effects, host parasites interactions, and vector biology. I am currently developing evolutionary models of maternal investment in tsetse flies and investigating the impacts on vector competence and the epidemiology of the animal/human African trypanosomiasis. I did my PhD on the ecology and evolution of malaria mosquito immunity (2016, University of Neuchâtel, Switzerland), and then combined evolutionary & applied ecology to improve malaria control during my first postdoc (2016-19, Penn State University, USA).
+            </p>
+          </section>
+          <div class='logos'>
+            <a href='https://scholar.google.co.uk/citations?hl=en&user=bMdX_vcAAAAJ' target='_blank'>
+              <img class='logo-small' src='images/google_scholar.png' alt='google scholar'>
+            </a>
+            <a href='https://twitter.com/AMGBarreaux' target='_blank'>
+              <img class='logo-small' src='images/twitter.png' alt='twitter'>
+            </a>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- <section id='collaborators'>
+
+        <br>
+        <div class='break'> </div>
+        <p class='break-text'><a class='off' href='people.html#current'>Current</a> / <a class='on' href='people.html#collaborators'>Collaborators</a></p>
+        <div class='break'> </div>
+        <br>
+
+      </section> -->
+
+    </div>
+
+  </body>
+
+</html>

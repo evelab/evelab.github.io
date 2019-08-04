@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+
+    <title>EVE Lab</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='icon' type='image/png' href='images/fly_icon.png' />
+
+    <!-- link to website styles -->
+    <link rel='stylesheet' href='styles/styles.css' />
+    <!-- link to website scripts -->
+    <script async type='text/javascript' src='scripts/scripts.js'></script>
+    <!-- add Google font -->
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans|Montserrat&display=swap' rel='stylesheet'>
+
+  </head>
+
+  <body>
+
+    <!-- top navigation menu - mobile version -->
+    <div id='topnav-bg'>
+      <nav id='topnav'>
+        <a href='index.html'>EVE Lab</a>
+        <!-- navigation links (hidden by default) -->
+        <ul id='pages'>
+          <li><a href='research.html'>Research</a></li>
+          <li><a href='people.html'>People</a></li>
+          <li><a href='publications.html'>Publications</a></li>
+          <li><a href='news.html'>News</a></li>
+        </ul>
+        <!-- 'hamburger menu' to toggle the navigation links -->
+        <div id='menu' onclick='toggleMenu()'>
+          <div class='bar'></div>
+          <div class='bar'></div>
+          <div class='bar'></div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- top navigation menu - desktop/laptop version -->
+    <nav id='topnav2'>
+      <ul>
+        <li class='active'><a href='index.html#'>About</a></li>
+        <li class='inactive'><a href='research.html'>Research</a></li>
+        <li class='inactive'><a href='people.html'>People</a></li>
+        <li class='inactive'><a href='publications.html'>Publications</a></li>
+        <li class='inactive'><a href='news.html'>News</a></li>
+      </ul>
+    </nav>
+
+    <!-- header image -->
+    <picture>
+      <source media='(max-width: 860px)' srcset='images/headers/header_01_small.jpg' alt='header image'>
+      <img class='header-image' src='images/headers/header_01.jpg' alt='header image'>
+      <div class='header-text'>Evolution & Vector Ecology Lab</div>
+    </picture>
+
+
+    <div id='content'>
+
+      <section class='big-text'>
+        <p>How do maternal and early-life experiences shape development and life history?</p>
+        <p>What are the consequences of these effects for individuals and populations?</p>
+      </section>
+
+      <div class='break'> </div>
+      <br>
+
+      <section class='medium-text'>
+        <p>Welcome to the website for the Evolution and Vector Ecology (EVE) group in the School of Biological Sciences, University of Bristol. We combine modelling, comparative and empirical approaches to investigate questions such as why some species give birth to live young, and the consequences of extreme maternal investment for evolutionary and population processes.</p>
+        <p>Read about our <a href='research.html'>research<a> and <a href='index.html#contact'>get in touch<a> if you are interested in learning more or to discuss opportunities to join us. We will advertise job opportunities here, and are always happy to discuss potential research Masters, PhD or early career fellowship projects.</p>
+      </section>
+      <br>
+
+      <div class='break'> </div>
+      <br>
+
+      <p class='medium-heading'>Research funded by</p>
+      <br>
+      <div class='logos'>
+        <a href='https://royalsociety.org/' target='_blank'>
+          <img class='logo-big' src='images/royal_society.png' alt='Royal Society logo'>
+        </a>
+        <a href='https://bbsrc.ukri.org//' target='_blank'>
+          <img class='logo-big' src='images/bbsrc.png' alt='BBSRC logo'>
+        </a>
+        <a href='https://www.ukri.org/research/global-challenges-research-fund/' target='_blank'>
+          <img class='logo-big' src='images/gcrf.png' alt='GCRF logo'>
+        </a>
+      </div>
+      <br>
+      <br>
+
+      <div class='break'> </div>
+      <br>
+
+      <section id='contact'>
+        <p class='medium-heading'>Contact</p>
+        <p>Evolution & Vector Ecology Lab
+          <br>
+          School of Biological Sciences
+          <br>
+          University of Bristol
+          <br>
+          Bristol, UK
+        </p>
+        <p>
+          email: EvolVecEcol@gmail.com
+          <br>
+          twitter: <a href='https://twitter.com/EvolVecEcol'>@EvolVecEcol</a>
+        </p>
+      </section>
+
+    </div>
+
+  </body>
+
+</html>
