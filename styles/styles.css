@@ -77,9 +77,9 @@ body {
 /* actual content within each page */
 #content {
   margin: auto;
-  min-height: 55vh;
+  min-height: 85vh;
   max-width: 1000px;
-  padding: 1% 4%;
+  padding: 1% 4% 6% 4%;
   background-color: rgb(246, 246, 246);
   line-height: 1.6;
   font-size: 0.9em;
@@ -109,7 +109,7 @@ body {
   width: 100%;
   background-color: rgb(230, 230, 230);
 }
-#content .break-text {
+/* #content .break-text {
   line-height: 2;
   text-align: center;
   color: rgb(70, 70, 70);
@@ -123,6 +123,22 @@ body {
 #content .break-text .off {
   text-decoration: none;
   color: rgb(140, 140, 140);
+} */
+
+#footer {
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(220, 220, 220);
+  color: rgb(120, 120, 120);
+}
+#footer .text {
+  margin: auto;
+  padding: 0 1%;
+  text-align: right;
+  font-size: 0.7em;
+  line-height: 80px;
 }
 
 /* div for each person and topic in people and research pages */
@@ -285,6 +301,11 @@ body {
   #content .break-text a:hover {
     text-decoration: none;
     color: rgb(0, 0, 0);
+  }
+
+  #footer .text {
+    padding: 0 4%;
+    font-size: 0.8em;
   }
 
   /* 'block card' divs */
