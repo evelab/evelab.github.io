@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://evelab.github.io/</loc>
-    <lastmod>2019-08-14</lastmod>
+    <loc>https://evelab.org/</loc>
+    <lastmod>2020-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://evelab.github.io/index.html</loc>
-    <lastmod>2019-08-14</lastmod>
+    <loc>https://evelab.org/index.html</loc>
+    <lastmod>2020-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://evelab.github.io/research.html</loc>
-    <lastmod>2019-08-14</lastmod>
+    <loc>https://evelab.org/research.html</loc>
+    <lastmod>2020-01-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://evelab.github.io/people.html</loc>
-    <lastmod>2019-08-14</lastmod>
+    <loc>https://evelab.org/people.html</loc>
+    <lastmod>2020-01-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://evelab.github.io/publications.html</loc>
-    <lastmod>2019-08-14</lastmod>
+    <loc>https://evelab.org/publications.html</loc>
+    <lastmod>2020-01-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
   <url>
-    <loc>https://evelab.github.io/news.html</loc>
-    <lastmod>2019-08-14</lastmod>
+    <loc>https://evelab.org/news.html</loc>
+    <lastmod>2020-01-27</lastmod>
     <changefreq>monthly</changefreq>
   </url>
 </urlset>
