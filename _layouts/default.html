@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+
+    <title>{{ page.title }}</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name='description' content='Evolution and Vector Ecology (EVE) Lab, University of Bristol - Sinead English'>
+
+    <link rel='icon' type='image/png' href='images/fly_icon.png' />
+    <!-- link to website styles -->
+    <link rel='stylesheet' href='styles/styles.css' />
+    <!-- link to website scripts -->
+    <script async type='text/javascript' src='scripts/scripts.js'></script>
+    <!-- add Google font -->
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans|Montserrat&display=swap' rel='stylesheet'>
+
+  </head>
+
+  <body>
+
+    <!-- top navigation menu - mobile version -->
+    <div id='topnav-bg'>
+      <nav id='topnav'>
+        <a href='index.html'>EVE Lab</a>
+        <!-- navigation links (hidden by default) -->
+        <ul id='pages'>
+          <li><a href='research.html'>Research</a></li>
+          <li><a href='people.html'>People</a></li>
+          <li><a href='publications.html'>Publications</a></li>
+          <li><a href='news.html'>News</a></li>
+        </ul>
+        <!-- 'hamburger menu' to toggle the navigation links -->
+        <div id='menu' onclick='toggleMenu()'>
+          <div class='bar'></div>
+          <div class='bar'></div>
+          <div class='bar'></div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- top navigation menu - desktop/laptop version -->
+    <nav id='topnav2'>
+      <ul>
+        <li class='active'><a href='index.html#'>About</a></li>
+        <li class='inactive'><a href='research.html'>Research</a></li>
+        <li class='inactive'><a href='people.html'>People</a></li>
+        <li class='inactive'><a href='publications.html'>Publications</a></li>
+        <li class='inactive'><a href='news.html'>News</a></li>
+      </ul>
+    </nav>
+
+    <!-- header image -->
+    <picture>
+      <source media='(max-width: 860px)' srcset='images/headers/header_01_small.jpg' alt='header image'>
+      <img class='header-image' src='images/headers/header_01.jpg' alt='header image'>
+      <div class='header-text'>Evolution & Vector Ecology Lab</div>
+    </picture>
+
+    <div id='content'>
+      {{ content }}
+    </div><!-- /.content -->
+
+  </body>
+</html>
