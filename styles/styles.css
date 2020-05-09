@@ -264,6 +264,7 @@ body {
   }
   #topnav2 .active {
     border-bottom: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
   }
   #topnav2 .active a {
     cursor: default;

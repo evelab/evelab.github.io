@@ -11,10 +11,10 @@
     <link rel='icon' type='image/png' href='images/fly_icon.png' />
     <!-- link to website styles -->
     <link rel='stylesheet' href='styles/styles.css' />
-    <!-- link to website scripts -->
-    <script async type='text/javascript' src='scripts/scripts.js'></script>
     <!-- add Google font -->
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans|Montserrat&display=swap' rel='stylesheet'>
+    <!-- link to website scripts -->
+    <script async type='text/javascript' src='scripts/mobile_menu.js'></script>
 
   </head>
 
@@ -43,24 +43,28 @@
     <!-- top navigation menu - desktop/laptop version -->
     <nav id='topnav2'>
       <ul>
-        <li class='active'><a href='index.html#'>About</a></li>
-        <li class='inactive'><a href='research.html'>Research</a></li>
-        <li class='inactive'><a href='people.html'>People</a></li>
-        <li class='inactive'><a href='publications.html'>Publications</a></li>
-        <li class='inactive'><a href='news.html'>News</a></li>
+        <li class={{ page.index }}><a href='index.html'>About</a></li>
+        <li class={{ page.research }}><a href='research.html'>Research</a></li>
+        <li class={{ page.people }}><a href='people.html'>People</a></li>
+        <li class={{ page.publications }}><a href='publications.html'>Publications</a></li>
+        <li class={{ page.news }}><a href='news.html'>News</a></li>
       </ul>
     </nav>
 
     <!-- header image -->
     <picture>
-      <source media='(max-width: 860px)' srcset='images/headers/header_01_small.jpg' alt='header image'>
-      <img class='header-image' src='images/headers/header_01.jpg' alt='header image'>
+      <source media='(max-width: 860px)' srcset={{ page.headerImageSmall }} alt='header image'>
+      <img class='header-image' src={{ page.headerImageBig }} alt='header image'>
       <div class='header-text'>Evolution & Vector Ecology Lab</div>
     </picture>
 
     <div id='content'>
       {{ content }}
-    </div><!-- /.content -->
+    </div>
+
+    <div id='footer'>
+      <p class='text'>&#169; 2020 Evolution and Vector Ecology Lab</p>
+    </div>
 
   </body>
 </html>
