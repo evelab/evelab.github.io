@@ -67,22 +67,41 @@ body {
 #topnav2 { display: none; }
 
 /* style for header image */
+@keyframes fadein { /* used for fading in header and content divs */
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+#header { /* sets header image space before loading image */
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-top: 11.9%;
+  animation-name: fadein;
+  animation-duration: 0.5s;
+}
 .header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: auto;
   width: 100%;
   padding: 0;
+  filter: brightness(75%);
 }
 .header-text { display: none; }
 
 /* actual content within each page */
 #content {
-  margin: auto;
+  margin: 5px auto;
   min-height: 85vh;
   max-width: 1000px;
   padding: 1% 4% 6% 4%;
   background-color: rgb(246, 246, 246);
+  border-radius: 1%;
   line-height: 1.6;
   font-size: 0.9em;
+  animation-name: fadein;
+  animation-duration: 0.6s;
 }
 #content a {
   color: black;
@@ -274,8 +293,8 @@ body {
   /* text within header image */
   .header-text {
     display: block;
-    position: relative;
-    bottom: 70px;
+    position: absolute;
+    bottom: 40%;
     left: 40px;
     width: 80%;
     line-height: 0;
