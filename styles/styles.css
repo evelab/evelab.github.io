@@ -23,7 +23,7 @@ body {
   line-height: 46px;
   text-align: left;
   background-color: rgba(50, 50, 50, 0.95);
-  box-shadow: 1px 2px 6px rgb(20, 20, 20);
+  box-shadow: 1px 2px 4px rgb(20, 20, 20);
   font-family: 'Noto Sans', sans-serif;
 }
 /* hide the links inside the navigation menu (except for home) */
@@ -33,6 +33,7 @@ body {
   padding-left: 20px;
   overflow: hidden;
   background-color: rgba(50, 50, 50, 0.95);
+  box-shadow: 1px 2px 4px rgb(20, 20, 20);
   transition-property: all;
   transition-duration: 0.2s;
 }
@@ -260,7 +261,7 @@ body {
     width: 100%;
     text-align: center;
     background-color: rgba(50, 50, 50, 0.95);
-    box-shadow: 1px 2px 6px rgb(20, 20, 20);
+    box-shadow: 1px 2px 4px rgb(20, 20, 20);
     font-family: 'Noto Sans', sans-serif;
   }
   /* navigation menu links */
