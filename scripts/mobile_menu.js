@@ -14,4 +14,5 @@ function toggleMenu() {
 function closeMenu() {
   var x = document.getElementById('pages');
   x.style.maxHeight = '0';
+  document.getElementById('content').removeEventListener('click', closeMenu);
 }
