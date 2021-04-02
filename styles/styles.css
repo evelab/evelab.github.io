@@ -128,12 +128,12 @@ body {
   width: 100%;
   background-color: rgb(230, 230, 230);
 }
-/* #content .break-text {
+#content .break-text {
   line-height: 2;
   text-align: center;
   color: rgb(70, 70, 70);
 }
-#content .break-text a {
+/* #content .break-text a {
   text-decoration: none;
 }
 #content .break-text .on {
@@ -301,6 +301,7 @@ body {
     line-height: 0;
     color: rgba(255, 255, 255, 0.5);
     font-size: 40px;
+    text-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
   }
 
   /* actual content within each page */
@@ -319,10 +320,10 @@ body {
   #content .big-heading {
     font-size: 1.3em;
   }
-  #content .break-text a:hover {
+  /* #content .break-text a:hover {
     text-decoration: none;
     color: rgb(0, 0, 0);
-  }
+  } */
 
   #footer .text {
     font-size: 0.8em;
