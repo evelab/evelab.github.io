@@ -1,4 +1,7 @@
 /* mobile-first responsive design */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -6,7 +9,6 @@ body {
   background-color: rgb(240, 240, 240);
   font-family: 'Montserrat', sans-serif;
   font-size: 100%;
-  scroll-behavior: smooth;
 }
 
 /* navigation menu */
