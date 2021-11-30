@@ -15,6 +15,9 @@
     <link href='https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&display=swap' rel='stylesheet'>
     <!-- link to website scripts -->
     <script async type='text/javascript' src='scripts/mobile_menu.js'></script>
+    {% if page.analytics %}
+      {% include {{ page.analytics }} %}
+    {% endif %}
   </head>
 
   <body>
