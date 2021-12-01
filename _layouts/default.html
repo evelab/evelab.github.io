@@ -15,9 +15,11 @@
     <link href='https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&display=swap' rel='stylesheet'>
     <!-- link to website scripts -->
     <script async type='text/javascript' src='scripts/mobile_menu.js'></script>
-    {% if page.analytics %}
-      {% include {{ page.analytics }} %}
-    {% endif %}
+    <script src='https://getinsights.io/js/insights.js'></script>
+    <script>
+      insights.init('x6araWV34yTcX9T7');
+      insights.trackPages();
+    </script>
   </head>
 
   <body>
