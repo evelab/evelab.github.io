@@ -187,6 +187,10 @@ body {
   font-size: 1em;
   text-align: center;
 }
+#block .alumni {
+  font-size: 1em;
+  text-align: center;
+}
 
 /* funding, twitter and google scholar logos */
 .logos {
@@ -360,6 +364,14 @@ body {
     margin-right: 18px;
     padding: 4px;
   }
+  #block .alumni {
+    min-height: 300px;
+    margin-left: auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.15em;
+  }
+
 
   /* funding, twitter and google scholar logos */
   .logo-big {
