@@ -217,13 +217,13 @@ body {
 }
 
 /* news and upcoming events tables */
-#content #twitter {
+/* #content #twitter {
   max-width: 600px;
-  height: 360px; /*same as twitter-timeline height*/
+  height: 360px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
+} */
 #content table {
   table-layout: fixed;
 }
@@ -234,9 +234,9 @@ body {
 #content table .date {
   width: 80px;
 }
-#content table .twitter {
+/* #content table .twitter {
   display: none;
-}
+} */
 .archived,
 .more,
 .less:target {
@@ -369,7 +369,7 @@ body {
     margin-left: auto;
     padding: 4px;
     text-align: center;
-    font-size: 1.15em;
+    /* font-size: 1.15em; */
   }
 
 
@@ -382,13 +382,13 @@ body {
   #content table .date {
     padding-right: 18px;
   }
-  #content #twitter {
+  /* #content #twitter {
     display: none;
   }
   #content table .twitter {
     display: table-cell;
     width: 320px;
-    height: 450px; /*larger than twitter-timeline height*/
+    height: 450px;
     padding-left: 24px;
-  }
+  } */
 }
