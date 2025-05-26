@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 704.34949 643.70801"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="google_scholar.svg"
+   width="704.34949"
+   height="643.70801"
+   inkscape:version="1.4.2 (1:1.4.2+202505120737+ebf0e940d0)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.1048543"
+     inkscape:cx="339.41125"
+     inkscape:cy="315.87874"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3" />
+  <path
+     fill="#4285f4"
+     d="M 338.90847,470.49595 82.908465,262.04295 338.90847,59.375949 Z"
+     id="path1" />
+  <path
+     fill="#356ac3"
+     d="m 338.90847,470.49595 256,-208.453 -256,-202.667001 z"
+     id="path2" />
+  <circle
+     fill="#a0c3ff"
+     cx="338.90848"
+     cy="422.04294"
+     r="149.33299"
+     id="circle2" />
+  <path
+     fill="#76a7fa"
+     d="m 203.94547,358.04295 c 23.968,-50.453 75.392,-85.334 134.963,-85.334 59.571,0 110.995,34.881 134.963,85.334 z"
+     id="path3" />
+</svg>
