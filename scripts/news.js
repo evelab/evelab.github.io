@@ -28,7 +28,7 @@ function populateNews(news) {
     tr.appendChild(date);
     tr.appendChild(text);
     // latest news
-    if(i < 5) {
+    if(i < 10) {
       if(i == 0) {
         date.className = 'date';
       //   let twitter = document.createElement('td');
@@ -41,7 +41,7 @@ function populateNews(news) {
     }
     // archived news
     else {
-      if(i == 5) {
+      if(i == 10) {
         date.className = 'date';
       }
       document.getElementById('newsArchived').appendChild(tr);
